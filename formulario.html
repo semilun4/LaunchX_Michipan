@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido en Michipan</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <img src="michi.png" alt="logo michipan"  width="130" height="100"/>
+    <div>
+        <h1>Realiza tu pedido aquí</h1>
+    </div>
+    Recuerda realizarlo con al menos cinco días de anticipación.
+    <h2>Ingresa tus datos</h2>
+    <label for="Input1">Nombre: </label>
+    <input type="text" id="Input1" name="Input1" value="Nombre Apellidos"> <br><br>
+
+    <label for="correo1">Correo electrónico: </label>
+    <input type="email" id="correo1" name="correo1" value="usuario@mail.com"><br><br>
+
+    <label for="tel1">Teléfono: </label>
+    <input type="tel" id="tel1" name="tel1" maxlength="10" value="1234567890"><br><br>
+    
+    <label for="kilos">¿De cuántos kilos será el pastel? (Entre 2 y 10 kilogramos)</label><br>
+    <input type="number" id="kilos" name="kilos" min="2" max="10" value="2"><br><br>
+
+    <label>Elige tus sabores (Puedes combinar)</label> <br>
+    <input type="checkbox" id="chocogate" name="sabor" value="chocogate">
+    <label for="chocogate">Chocogate</label><br>
+    <input type="checkbox" id="miaunilla" name="sabor" value="miaunilla">
+    <label for="miaunilla">Miaunilla</label><br>
+    <input type="checkbox" id="gatuchino" name="sabor" value="gatuchino">
+    <label for="gatuchino">Gatuchino</label><br>
+    <input type="checkbox" id="tutti" name="sabor" value="tutti">
+    <label for="tutti">Tutti Michi</label><br>
+    <input type="checkbox" id="gatahoria" name="sabor" value="gatahoria">
+    <label for="gatahoria">Gatahoria</label><br>
+    <input type="checkbox" id="carey" name="sabor" value="carey">
+    <label for="carey">Carey</label><br>
+    <br><br>
+
+    <label>Elige tus cubierta (Puedes combinar)</label> <br>
+    <input type="checkbox" id="caramelo" name="cubre" value="caramelo">
+    <label for="caramelo">Caramelo Suave</label><br>
+    <input type="checkbox" id="choco" name="cubre" value="choco">
+    <label for="choco">Chocolate</label><br>
+    <input type="checkbox" id="fondant" name="cubre" value="fondant">
+    <label for="fondant">Fondant</label><br>
+    <input type="checkbox" id="fruta" name="cubre" value="fruta">
+    <label for="fruta">Frutas</label><br>
+    <input type="checkbox" id="meren" name="cubre" value="meren">
+    <label for="meren">Merengue</label><br>
+    <input type="checkbox" id="no" name="cubre" value="no">
+    <label for="no">Sin Cubierta</label><br>
+    <br><br>
+
+    <textarea name="comentarios" rows="10" cols="40">Escribe aquí una descripción del pastel (colores, diseño, etc).</textarea>
+    <br><br>
+    <label for="file1">Si tienes imágenes de referencia, muéstranos</label><br>
+    <input type="file" id="file1" name="file1" multiple><br><br> 
+
+    <label for="date2">Coloca aquí la fecha de entrega</label>
+    <input type="datetime-local" id="date2" name="date2"><br><br>
+    <br><br>
+    Para confirmar tu pedido recibirás una llamada de nuestro 
+    equipo para confirmar tu pedido.
+    <br><br>
+    <a href="index.html">
+        <input type="button" id="home" name="home" value="Cancelar"><br>
+    </a>
+    <input type="button" id="enviar" name="enviar" value="Enviar" onclick="alert('¡Miua miau, pedido realizado!');"><br>
+</body>
+
