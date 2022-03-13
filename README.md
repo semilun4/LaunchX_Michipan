@@ -34,9 +34,11 @@ Prácticas:
 - *Bonus de despliegue (Montar la página en línea con dominio gratuito)*
 
 # Contenido:
-- [Logo Michipan](https://github.com/semilun4/LaunchX_HTML/blob/main/Michipan.png), el logo fue recortado para la página, se encuentra [aquí](https://github.com/semilun4/LaunchX_HTML/blob/main/michi.png)
-- [Página principal Michipan](https://github.com/semilun4/LaunchX_HTML/blob/main/index.html)
-- [Página formulario](https://github.com/semilun4/LaunchX_HTML/blob/main/formulario.html)
-- [Página panadera (inventario y pedidos)](https://github.com/semilun4/LaunchX_HTML/blob/main/pastelera.html)
+- [Logo Michipan](https://github.com/semilun4/LaunchX_Michipan/blob/master/Michipan.png), el logo fue recortado para la página, se encuentra [aquí](https://github.com/semilun4/LaunchX_Michipan/blob/master/michi.png)
+- [Página principal Michipan](https://github.com/semilun4/LaunchX_Michipan/blob/master/index.html)
+- [Página formulario](https://github.com/semilun4/LaunchX_Michipan/blob/master/formulario.html)
+- [Página panadera (inventario y pedidos)](https://github.com/semilun4/LaunchX_Michipan/blob/master/pastelera.html)
 
 # Una visualización a la página
+🐱
+Página web hosteada en **GitHub Pages** [aquí](https://semilun4.github.io/LaunchX_Michipan/).
